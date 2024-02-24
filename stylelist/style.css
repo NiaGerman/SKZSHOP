@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Open Sans";
+}
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+section {
+  padding: 2rem 9%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*NAVEGACION*/
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+nav a:hover {
+  background-color: #212529;
+  color: #fff;
+}
+/*ENCABEZADO*/
+.encabezado-imagen {
+  background-image: url(imagenes/skz8.jpg);
+  height: 800px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.encabezado-imagen p {
+  font-size: 20px;
+}
+.encabezado-imagen h1 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+/*ELEGIRNOS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.heading {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.heading h1 {
+  font-size: 55px;
+  color: #212529;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.heading p {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 35px;
+}
+.container-about {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-image {
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+}
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  transition: 0.5s ease;
+}
+.about-content:hover img {
+  transform: scale(1.2);
+}
+.about-content {
+  flex: 1;
+}
+.about-content h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+.about-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #000;
+}
+.about-content .read-more {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #212529;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+.about-content .read-more:hover {
+  background-color: #343a40;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    padding: 0px 20px;
+  }
+  .heading h1 {
+    font-size: 36px;
+  }
+  .heading p {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .container-about {
+    padding: 0px;
+  }
+  .about {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .about-image {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .about-content p {
+    padding: 0px;
+    font-size: 16px;
+  }
+  .about-content .read-more {
+    font-size: 16px;
+  }
+}
+
+/*ICONOS*/
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+.icons-container .icons {
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.icons-container .icons img {
+  width: 5rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+.icons-container .icons h3 {
+  color: #212529;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.icons-container .icons span {
+  color: #343a40;
+  font-size: 1.3rem;
+}
+/*TARJETA*/
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+.titulo h2 {
+  color: #212529;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+.card img {
+  width: 100%;
+  height: 500px;
+}
+.card .contenido {
+  padding: 15px;
+  text-align: center;
+}
+.card .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15;
+}
+/*FOOTER*/
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background: #212529;
+  color: #efefef;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer div {
+  text-align: center;
+}
+.col-2 {
+  flex-grow: 2; /*Es para que tome el espacio 2 veces, en pocas palabras aumenta el tamano*/
+}
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.col-2 form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+.col-2 form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .footer {
+    text-align: center;
+    flex-direction: column; 
+    padding: 20px; 
+  }
+  .col-1, .col-2 {
+    width: 100%; 
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .col-2 form,
+  .social-icons {
+    display: none;
+  }
+}
+/*MERCANCIA*/
+
+/*ENCABEZADO*/
+.encabezado-mercancia {
+  background-image: url(imagenes/rockstar.jpg);
+  height: 70vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.encabezado-imagen p {
+  font-size: 20px;
+}
+.encabezado-imagen h1 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .encabezado-mercancia h1 {
+    font-size: 30px;
+  }
+  .encabezado-mercancia p {
+    font-size: 16px;
+  }
+}
+
+/*Merch*/
+.merch{
+  align-items: center;
+  text-align: center;
+}
+.merch-cards{
+  width: 20%;
+  margin: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  padding-top: 40px;
+  display: inline-block;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+.image-merch img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.title-merch{
+  text-align: center;
+  padding: 10px;
+}
+.title-merch h2{
+  font-size: 20px;
+}
+.description-merch{
+  padding:3px;
+  text-align: center;
+}
+.merch-cards button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.merch-cards button:hover{
+  background-color: #343a40;
+  color: #fff;
+  transition: .5s;
+  cursor:pointer;
+}
+
